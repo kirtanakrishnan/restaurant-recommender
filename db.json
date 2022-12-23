@@ -1,0 +1,1113 @@
+{
+  "quiz" : {
+    "quizID": "resquiz",
+    "title": "What Boston Restaurant Should You Try Next?",
+    "subtitle": "Unsure of which Boston restaurant to go to? Take this quiz and get a recommendation!",
+    "content": [
+      {
+        "id": 0,
+        "text": "Pick a price range:",
+        "questions": [
+          {
+            "text": "$",
+            "image": "https://media.istockphoto.com/id/652872508/photo/dollar-sign-isolated.jpg?s=612x612&w=0&k=20&c=SHjQpmUvSD-8lwAuELAr6hzTfSS_vwpiLth4maj2UR8="
+          },
+          {
+            "text": "$$",
+            "image": "https://www.business2community.com/wp-content/uploads/2018/07/dollar-signs.jpg"
+          },
+          {
+            "text": "$$$",
+            "image": "https://lirp.cdn-website.com/a8ba6e19/dms3rep/multi/opt/Residential-Lawn-Saving_1-640w.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "What type of cuisine are you in the mood for?",
+        "questions": [
+          {
+            "text": "American",
+            "image": "https://en.casacol.co/wp-content/uploads/sites/3/2022/06/The-Best-American-Food-in-Medellin-scaled.jpg"
+          },
+          {
+            "text": "Italian",
+            "image": "https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/1599248222831-ZMHAFYJT9T3IXH3IVGKY/What-to-eat-in-Italy.png"
+          },
+          {
+            "text": "Chinese",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2017%2F08%2F17%2FGettyImages-545286388-2000.jpg&q=60"
+          },
+          {
+            "text": "Mediterranean",
+            "image": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/story/more-diet.jpg?itok=CSxKcau4"
+          },
+          {
+            "text": "Thai",
+            "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/08/thai-food.jpg?quality=82&strip=1"
+          },
+          {
+            "text": "Indian",
+            "image": "https://www.blueosa.com/wp-content/uploads/2020/01/the-best-top-10-indian-dishes.jpg"
+          },
+          {
+            "text": "Mexican",
+            "image": "https://www.allrecipes.com/thmb/Y4brle_IWwQ6ll1v4i69TO5sbfI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/102108380-Authentic-Mexican-Cuisine-Photo-by-Meredith-ebaca57279a548d6b6ef266493497fc3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What occasion are you going out for?",
+        "questions": [
+          {
+            "text": "Breakfast/Brunch",
+            "image": "https://i.tribune.com.pk/media/images/5-59555_photo-wallpaper-the-sun-dawn-coffee-mornin1626689182-0/5-59555_photo-wallpaper-the-sun-dawn-coffee-mornin1626689182-0.jpg"
+          },
+          {
+            "text": "Lunch/Dinner",
+            "image": "https://images.pexels.com/photos/771883/pexels-photo-771883.jpeg?cs=srgb&dl=pexels-reynaldo-brigworkz-brigantty-771883.jpg&fm=jpg"
+          },
+          {
+            "text": "Dessert",
+            "image": "https://cdn.hswstatic.com/gif/desserts-update.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Do you have any dietary preferences?",
+        "questions": [
+          {
+            "text": "I want to go to a vegan restaurant",
+            "image": "https://www.barry-callebaut.com/sites/default/files/styles/paragraph_text_and_image_left_right/public/2020-01/CAL%20icon%20VEGAN%20rgb.jpg?itok=8LEg47RA"
+          },
+          {
+            "text": "I want to go to a vegetarian restaurant",
+            "image": "https://i.pinimg.com/originals/b9/a8/59/b9a859a0d110252a8934dd3dd0096668.jpg"
+          },
+          {
+            "text": "The restaurant must have at least some vegan/vegetarian options",
+            "image": "https://vegsoc.org/wp-content/uploads/2021/04/vsa-trademarks-banner-landscape-750x580.jpg"
+          },
+          {
+            "text": "None",
+            "image": "data:image/png;base64,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"
+          }
+        ]
+      }
+
+    ],
+    "answers": [
+      {
+        "combination": ["$", "American", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Life Alive Organic Cafe"
+      },
+      {
+        "combination": ["$", "American", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Veggie Galaxy"
+      },
+      {
+        "combination": ["$", "American", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Neighborhoods Coffee & Crepes"
+      },
+      {
+        "combination": ["$", "American", "Breakfast/Brunch", "None"],
+        "text": "The Allston Diner"
+      },
+      {
+        "combination": ["$", "American", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Beatnic"
+      },
+      {
+        "combination": ["$", "American", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "by CHLOE"
+      },
+      {
+        "combination": ["$", "American", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Pete's Dockside"
+      },
+      {
+        "combination": ["$", "American", "Lunch/Dinner", "None"],
+        "text": "The Avenue"
+      },
+      {
+        "combination": ["$", "American", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Jennifer Lee's Gourmet Bakery"
+      },
+      {
+        "combination": ["$", "American", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Flore's Bakery"
+      },
+      {
+        "combination": ["$", "American", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Jonquils Cafe & Bakery"
+      },
+      {
+        "combination": ["$", "American", "Dessert", "None"],
+        "text": "Bova's Bakery"
+      },
+      {
+        "combination": ["$$", "American", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Clover Food Lab"
+      },
+      {
+        "combination": ["$$", "American", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Veggie Galaxy"
+      },
+      {
+        "combination": ["$$", "American", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Tatte's"
+      },
+      {
+        "combination": ["$$", "American", "Breakfast/Brunch", "None"],
+        "text": "Pavement Coffee House"
+      },
+      {
+        "combination": ["$$", "American", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "True Bistro"
+      },
+      {
+        "combination": ["$$", "American", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Roxy's Grilled Cheese"
+      },
+      {
+        "combination": ["$$", "American", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Shake Shack"
+      },
+      {
+        "combination": ["$$", "American", "Lunch/Dinner", "None"],
+        "text": "Bostonia Public House"
+      },
+      {
+        "combination": ["$$", "American", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Nique’s Vegan Desserts"
+      },
+      {
+        "combination": ["$$", "American", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Lulu Green"
+      },
+      {
+        "combination": ["$$", "American", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Flour Bakery + Café"
+      },
+      {
+        "combination": ["$$", "American", "Dessert", "None"],
+        "text": "L.A. Burdick Handmade Chocolates"
+      },
+      {
+        "combination": ["$$$", "American", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Veggie Grill"
+      },
+      {
+        "combination": ["$$$", "American", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Sweetgreen"
+      },
+      {
+        "combination": ["$$$", "American", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Cafe Landwer"
+      },
+      {
+        "combination": ["$$$", "American", "Breakfast/Brunch", "None"],
+        "text": "Buttermilk & Bourbon"
+      },
+      {
+        "combination": ["$$$", "American", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "PLNT Burger"
+      },
+      {
+        "combination": ["$$$", "American", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Walnut Grille"
+      },
+      {
+        "combination": ["$$$", "American", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "The Friendly Toast"
+      },
+      {
+        "combination": ["$$$", "American", "Lunch/Dinner", "None"],
+        "text": "Sonsie"
+      },
+      {
+        "combination": ["$$$", "American", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "FoMu"
+      },
+      {
+        "combination": ["$$$", "American", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Georgetown Cupcake"
+      },
+      {
+        "combination": ["$$$", "American", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Amorino Gelato"
+      },
+      {
+        "combination": ["$$$", "American", "Dessert", "None"],
+        "text": "Levain Bakery"
+      },
+      {
+        "combination": ["$", "Italian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Italian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Italian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Italian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Chinese", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Chinese", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Chinese", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mediterranean", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mediterranean", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mediterranean", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Thai", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Thai", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Thai", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Indian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Indian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Indian", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$", "Mexican", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$", "Mexican", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Breakfast/Brunch", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Breakfast/Brunch", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Breakfast/Brunch", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Breakfast/Brunch", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Lunch/Dinner", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Lunch/Dinner", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Lunch/Dinner", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Lunch/Dinner", "None"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Dessert", "I want to go to a vegan restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Dessert", "I want to go to a vegetarian restaurant"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Dessert", "The restaurant must have at least some vegan/vegetarian options"],
+        "text": "Popular: Hidden Gem:"
+      },
+      {
+        "combination": ["$$$", "Mexican", "Dessert", "None"],
+        "text": "Popular: Hidden Gem:"
+      }
+    ]
+  }
+}
+
